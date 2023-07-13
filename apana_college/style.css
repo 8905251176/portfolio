@@ -1,0 +1,119 @@
+@keyframes changeborder{
+    0%{border-color: rgb(255, 55, 0);}
+    10%{border-color: rgb(246, 255, 0);}
+    20%{border-color: rgb(0, 255, 200);}
+    30%{border-color: rgb(25, 0, 255);}
+    40%{border-color: rgb(233, 16, 196);}
+    50%{border-color: rgb(166, 255, 0);}
+    60%{border-color: rgb(255, 0, 68);}
+    70%{border-color: rgb(255, 68, 0);}
+    80%{border-color: rgb(207, 214, 101);}
+    90%{border-color: rgb(80, 3, 94);}
+    100%{border-color: aqua;}
+}span b{
+    color:red;
+}p{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+hr{
+    animation-name: changeborder;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+body{
+    background-image:url("lok.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    text-align: center;
+    color:white;
+
+}
+ul{
+    list-style:none;
+}
+.data,.data1,.data2{
+    /* border:2px solid red; */
+    width:50%;
+    margin-left: 23rem;
+    box-shadow: 4px 4px 68px;
+    border-radius: 8px;
+    border-style: outset;
+    animation-name: changeborder;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}div{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    /* border:1px solid red; */
+    border-radius: 124px;
+    border-style:outset;
+    box-shadow: 3px 4px 8px whitesmoke;
+}
+img:hover{
+    transform:scale(1.1,1.2);
+    box-shadow: 0 0 0;
+}
+.data{
+    margin-top: 2rem;
+}
+.data1{
+    margin-top: 2rem;
+}
+.data2{
+    margin-top: 2rem;
+}
+form input{
+    font-size: 18px;
+    color:red;
+}
+textarea{
+    color:black;
+}
+label{
+    font-size: 20px;
+}
+button{
+    color:black;
+    font-size: 25px;
+    padding:0 1.1rem;
+    margin-top:0.9rem;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: black;
+    color:aliceblue;
+}
+form{
+    border:2px solid red;
+    margin-left:22rem;
+    width:50%;
+    background-color: rgb(238, 184, 193);
+    opacity:1;
+    border-radius: 295px;
+    animation-name: changeborder;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+} #foot{
+    color:white;
+}
+@media  screen and(max-width:360px) {
+    .data,.data1,.data2{
+        border:2px solid red;
+        width:77%;
+        margin-left: 3rem;
+}
+}
